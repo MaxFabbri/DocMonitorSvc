@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<configuration>
+  <configSections>
+    <sectionGroup name="applicationSettings" type="System.Configuration.ApplicationSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+      <section name="PresentDocMonitorSvc.Properties.Settings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" requirePermission="false"/>
+      <section name="Present.Data.My.MySettings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" requirePermission="false"/>
+    </sectionGroup>
+  </configSections>
+  <applicationSettings>
+    <PresentDocMonitorSvc.Properties.Settings>
+      <setting name="CultureName" serializeAs="String">
+        <value>it</value>
+      </setting>
+      <setting name="MonitoredFolderPath" serializeAs="String">
+        <value>c:\\inetpub\\wwwroot\\Present.Web\\docs</value>
+      </setting>
+      <setting name="PersonKeyFieldFormat" serializeAs="String">
+        <value>000000</value>
+      </setting>
+      <setting name="PersonKeyField" serializeAs="String">
+        <value>matricola</value>
+      </setting>
+      <setting name="RelativePathRegEx" serializeAs="String">
+        <value>^c:\\inetpub\\wwwroot\\Present.Web\\(.+)</value>
+      </setting>
+      <setting name="UserName" serializeAs="String">
+        <value>ARTECH</value>
+      </setting>
+      <setting name="Password" serializeAs="String">
+        <value>ARTECHADMIN</value>
+      </setting>
+      <setting name="MonitoredFileNumber" serializeAs="String">
+        <value>2</value>
+      </setting>
+      <setting name="NameFileRegEx1" serializeAs="String">
+        <value>(?&lt;=^.+\\docs\\cud-)(\d{4})_(\d+)(?=\.pdf$)</value>
+      </setting>
+      <setting name="YearFilePosition1" serializeAs="String">
+        <value>1</value>
+      </setting>
+      <setting name="MonthFilePosition1" serializeAs="String">
+        <value>0</value>
+      </setting>
+      <setting name="PersonFileKeyPosition1" serializeAs="String">
+        <value>2</value>
+      </setting>
+      <setting name="SubjectResourceKey1" serializeAs="String">
+        <value>ITS</value>
+      </setting>
+      <setting name="TextResourceKey1" serializeAs="String">
+        <value>Message.ITSFileAvailable</value>
+      </setting>
+      <setting name="NameFileRegEx2" serializeAs="String">
+        <value>(?&lt;=^.+\\docs\\cedolini-)(\d{4})(\d{2})_(\d+)(?=\.pdf$)</value>
+      </setting>
+      <setting name="YearFilePosition2" serializeAs="String">
+        <value>1</value>
+      </setting>
+      <setting name="MonthFilePosition2" serializeAs="String">
+        <value>2</value>
+      </setting>
+      <setting name="PersonFileKeyPosition2" serializeAs="String">
+        <value>3</value>
+      </setting>
+      <setting name="SubjectResourceKey2" serializeAs="String">
+        <value>Payslip</value>
+      </setting>
+      <setting name="TextResourceKey2" serializeAs="String">
+        <value>Message.PayslipFileAvailable</value>
+      </setting>
+      <setting name="UpdateMessage" serializeAs="String">
+        <value>False</value>
+      </setting>
+      <setting name="RefreshLoginInHours" serializeAs="String">
+        <value>24</value>
+      </setting>
+      <setting name="ThirteenthMonth" serializeAs="String">
+        <value>12</value>
+      </setting>
+      <setting name="FourteenthMonth" serializeAs="String">
+        <value>7</value>
+      </setting>
+    </PresentDocMonitorSvc.Properties.Settings>
+    <Present.Data.My.MySettings>
+      <setting name="PresentWSUrl" serializeAs="String">
+        <value>http://192.168.1.203/PresentWS/SrvBase.asmx</value>
+      </setting>
+    </Present.Data.My.MySettings>
+  </applicationSettings>
+<startup><supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.0"/></startup>
+</configuration>

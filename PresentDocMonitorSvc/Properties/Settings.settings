@@ -1,0 +1,126 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="PresentDocMonitorSvc.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="CultureName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">it</Value>
+    </Setting>
+    <Setting Name="MonitoredFolderPath" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">c:\\inetpub\\wwwroot\\Present.Web\\docs</Value>
+    </Setting>
+    <Setting Name="PersonKeyFieldFormat" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">000000</Value>
+    </Setting>
+    <Setting Name="PersonKeyField" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">matricola</Value>
+    </Setting>
+    <Setting Name="RelativePathRegEx" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">^c:\\inetpub\\wwwroot\\Present.Web\\(.+)</Value>
+    </Setting>
+    <Setting Name="UserName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">ARTECH</Value>
+    </Setting>
+    <Setting Name="Password" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">ARTECHADMIN</Value>
+    </Setting>
+    <Setting Name="NameFileRegEx1" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">(?&lt;=^.+\\docs\\cud-)(\d{4})_(\d+)(?=\.pdf$)</Value>
+    </Setting>
+    <Setting Name="YearFilePosition1" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="MonthFilePosition1" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="PersonFileKeyPosition1" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">2</Value>
+    </Setting>
+    <Setting Name="SubjectResourceKey1" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">ITS</Value>
+    </Setting>
+    <Setting Name="TextResourceKey1" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Message.ITSFileAvailable</Value>
+    </Setting>
+    <Setting Name="NameFileRegEx2" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">(?&lt;=^.+\\docs\\cedolini-)(\d{4})(\d{2})_(\d+)(?=\.pdf$)</Value>
+    </Setting>
+    <Setting Name="YearFilePosition2" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="MonthFilePosition2" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">2</Value>
+    </Setting>
+    <Setting Name="PersonFileKeyPosition2" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">3</Value>
+    </Setting>
+    <Setting Name="SubjectResourceKey2" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Payslip</Value>
+    </Setting>
+    <Setting Name="TextResourceKey2" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Message.PayslipFileAvailable</Value>
+    </Setting>
+    <Setting Name="UpdateMessage" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="RefreshLoginInHours" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">24</Value>
+    </Setting>
+    <Setting Name="ThirteenthMonth" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">12</Value>
+    </Setting>
+    <Setting Name="FourteenthMonth" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">7</Value>
+    </Setting>
+    <Setting Name="MonitoredFileNumber" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">4</Value>
+    </Setting>
+    <Setting Name="PublicMessage1" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="PublicMessage2" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="PersonFileKeyPosition3" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="YearFilePosition3" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="MonthFilePosition3" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="TextResourceKey3" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Message.GenericPublicDocAvailable</Value>
+    </Setting>
+    <Setting Name="PublicMessage3" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="PersonFileKeyPosition4" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="YearFilePosition4" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="MonthFilePosition4" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="TextResourceKey4" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Message.GenericPrivateDocAvailable</Value>
+    </Setting>
+    <Setting Name="PublicMessage4" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="SubjectResourceKey3" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">GenericPublic</Value>
+    </Setting>
+    <Setting Name="SubjectResourceKey4" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">GenericPrivate</Value>
+    </Setting>
+    <Setting Name="NameFileRegEx3" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">(?&lt;=^.+\\docs\\public-).+(?=\.pdf$)</Value>
+    </Setting>
+    <Setting Name="NameFileRegEx4" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">(?&lt;=^.+\\docs\\private-).+_(\d+)(?=\.pdf$)</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
